@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: -apple-system, sans-serif;
+}
+
+:root {
+    --bg-color: #fff;
+    --snd-bg-color: #d5fdf9;
+    --text-color: #000;
+    --main-color: #007f73;
+    /* --main-color: #0086bb; */
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c9fff8; /* light green background */
+  margin: 0;
+  padding: 0;
+}
+
+span {
+    color: var(--main-color);
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  margin: 30px 0;
+  font-size: 44px;
+}
+
+.testimonial-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 50px;
+}
+
+.testimonial-card {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* === VIDEO BOX === */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 177.78%; /* 9:16 ratio (height / width * 100 = 16/9 * 100) */
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 255, 200, 0.4);
+  margin-bottom: 15px;
+}
+
+.video-wrapper video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* fills the box perfectly */
+  border-radius: 15px;
+}
+
+h3 {
+  margin: 10px 0 5px;
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+  color: #333;
+}
+
