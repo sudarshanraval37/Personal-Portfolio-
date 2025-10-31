@@ -40,7 +40,7 @@ span {
   font-size: 44px;
 }
 
-.testimonial-section {
+.work-section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -48,7 +48,7 @@ span {
   padding: 50px;
 }
 
-.testimonial-card {
+.work-card {
   background: white;
   border-radius: 20px;
   padding: 20px;
@@ -58,7 +58,7 @@ span {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.testimonial-card:hover {
+.work-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.25);
 }
@@ -84,12 +84,12 @@ span {
   border-radius: 15px;
 }
 
-h3 {
+.work-card h3 {
   margin: 10px 0 5px;
   font-size: 20px;
 }
 
-p {
+.work-section p {
   font-size: 14px;
   color: #333;
 }
